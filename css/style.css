@@ -5,15 +5,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
 }
 /*
     General
 */
-
+.container {
+    width: 53%;
+    margin: 0 auto;
+}
 /*
-    Head
+Head
 */
+.space {
+    margin: 4%;
+} 
 
+h1 {
+    color: #E53170;
+}
+
+.text {
+    text-align: center;
+}
 /*
     Main
 */
+img {
+    width: 100px;
+}
+
+.float-left {
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -11,7 +11,7 @@
     General
 */
 .container {
-    width: 53%;
+    width: 80%;
     margin: 0 auto;
 }
 /*
@@ -33,13 +33,18 @@ h1 {
 */
 img {
     width: 100px;
+    margin-right: 60px;
 }
 
-.float-left {
-    float: left;
-}
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.collums{ 
+    width: 30%;
+    text-align: left;
+    float: left;
+    margin: 1%;
 }

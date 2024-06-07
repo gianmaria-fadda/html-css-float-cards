@@ -11,7 +11,7 @@
     General
 */
 .container1 {
-    width: 60%;
+    width: 62%;
     margin: 0 auto;
 }
 
@@ -19,6 +19,10 @@
     width: 80%;
     margin: 0 auto;
     margin-left: 20%;
+}
+
+a {
+    color: #52B6DF;
 }
 /*
 Head
